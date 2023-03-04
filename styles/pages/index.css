@@ -1,0 +1,57 @@
+#main {
+    display: flex;
+}
+
+#titleBar {
+    background-color: #190F45;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #190F45;
+    width: 240px;
+    height: calc(100vh - 60px);
+}
+
+#send_message_button {
+    margin-bottom: 10px;
+}
+
+#send_message_button button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    gap: 10px;
+    width: 220px;
+    height: 40px;
+    background: #4026AF;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.tab_link {
+    padding: 5px 10px;
+    gap: 10px;
+    background-color: #190F45;
+}
+
+.tab_link span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+#emails {
+    margin-left: 100px;
+}

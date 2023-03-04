@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/pages/index.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <title>WireEmails</title>
+  </head>
+  <body>
+    <section id="titleBar">
+      <span>WireEmails</span>
+    </section>
+    <section id="main">
+      <div id="sidebar">
+        <div id="send_message_button">
+          <button>Send message</button>
+        </div>
+        <div id="sidebar_tabs">
+          <div class="sidebar_tab">
+            <div class="tab_link">
+              <span>Incoming emails</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="emails"></div>
+    </section>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

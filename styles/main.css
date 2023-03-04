@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+body {
+    min-height: calc(100vh);
+	overflow-y: overlay;
+}
+
+*:not(.clickable *) {
+   -webkit-app-region: drag;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+.clickable * {
+  -webkit-app-region: no-drag !important;
+  z-index: 1000;
+}
+
+h1, p {
+    font-family: Helvetica, sans-serif;
+}
+
+#titleBar {
+	background-color: #141414;
+	padding: 11px 10px;
+}
+
+#titleBar span {
+    font-family: "Poppins";
+    font-weight: 600;
+	font-style: normal;
+    font-size: 25px;
+	line-height: 38px;
+	color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	-webkit-app-region: no-drag !important;
+  	z-index: 1000;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.5);
+	-webkit-app-region: no-drag !important;
+  	z-index: 1000;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(90, 90, 90, 0.6);
+	border-radius: 1000px;
+	-webkit-app-region: no-drag !important;
+    z-index: 1000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(60, 60, 60, 0.6);
+}

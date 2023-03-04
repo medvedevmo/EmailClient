@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/pages/language.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <script src="scripts/jquery.js"></script>
+    <title>WireEmails</title>
+  </head>
+  <body>
+    <section id="titleBar">
+      <span>WireEmails</span>
+    </section>
+    <section id="main">
+        <div id="wrapper">
+            <div id="wrapper_header">
+                <h1>Choose your language</h1>
+            </div>
+            <div class="clickable" id="wrapper_selector">
+                <select id="language_select">
+                    <option value="EN">English</option>
+                    <option value="ES">Spanish</option>
+                    <option value="RU">Russian</option>
+                    <option value="FR">French</option>
+                    <option value="CN">Chinese</option>
+                </select>
+            </div>
+            <div class="button_wrapper clickable">
+                <button id="next_button">Next</button>
+            </div>
+        </div>
+    </section>
+    <script src="./scripts/language.js"></script>
+  </body>
+</html>

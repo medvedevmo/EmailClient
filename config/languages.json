@@ -1,0 +1,24 @@
+{
+    "EN": {
+        "authorize.html": {
+            "innerHTML": {
+                "h1": "Create email easy",
+                "#next_button": "Done!"
+            },
+            "placeholder": {
+                "#input_email": "Write email address here"
+            }
+        }
+    },
+    "RU": {
+        "authorize.html": {
+            "innerHTML": {
+                "h1": "Авторизуйся легко!",
+                "#next_button": "Завершить!"
+            },
+            "placeholder": {
+                "#input_email": "Напишите ваш электронный адрес здесь"
+            }
+        }
+    }
+}

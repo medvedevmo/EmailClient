@@ -1,0 +1,127 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+    width: 100%;
+    background-image: url('../../media/img/language_authorize_background.jpg');
+    background-size: cover;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper_header {
+    margin-bottom: 20px;
+}
+
+#wrapper_header h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.25px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+#wrapper_selector {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.s-hidden {
+    visibility: hidden;
+    padding-right: 10px;
+}
+  
+.select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 46px;
+    color: #C9C9C9;
+    border-radius: 4px;
+    width: 100%;
+}
+  
+.styledSelect {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    padding: 0px 11px;
+    width: calc(100% - 22px);
+    border-radius: 4px;
+}
+
+.styledSelect:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-color: #C9C9C9 transparent transparent transparent;
+    position: absolute;
+    top: 21.5px;
+    right: 11px;
+}
+  
+.styledSelect:active, .styledSelect.active {
+    background-color: #000000;
+}
+  
+.options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0 0;
+    padding: 0px 11px;
+    list-style: none;
+    background-color: #000000;
+    line-height: 46px;
+    width: calc(100% - 22px);
+}
+  
+.options li {
+    margin: 0 0;
+    width: calc(100%);
+}
+
+.options li {
+    border-top: 1px solid #1d1d1d;
+}
+  
+.options li:hover {
+    background-color: #000000;
+    box-shadow: inset rgba(150, 150, 150, 0.1);
+}
+
+#next_button {
+    display: inline-block;
+    padding: 4px 20px;
+    background: #0079D1;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+#next_button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 15px 20px 0px rgb(0 195 255);
+}

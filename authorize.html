@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/pages/authorize.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <script src="scripts/jquery.js"></script>
+    <title>WireEmails</title>
+  </head>
+  <body>
+    <section id="titleBar">
+      <span>WireEmails</span>
+    </section>
+    <section id="main">
+      <div id="wrapper">
+        <div id="wrapper_header">
+          <h1>Create email easy</h1>
+        </div>
+        <div id="wrapper_form" class="clickable">
+          <div id="wrapper_inputs">
+            <div class="wrapper_input">
+              <label for="input_email">Email address</label>
+              <input type="text" name="email" id="input_email" placeholder="Write email address here">
+            </div>
+            <div class="wrapper_input">
+              <label for="input_password">Password</label>
+              <input type="password" name="password" id="input_password" placeholder="Write password here">
+            </div>
+            <div class="wrapper_input">
+              <label for="input_smtpServerName">SMTP-server name</label>
+              <input type="text" name="smtp" id="input_smtpServerName" placeholder="smtp.example.com">
+            </div>
+            <div class="wrapper_input">
+              <label for="input_smtpServerPort">SMTP-server port</label>
+              <input type="text" name="smtp" id="input_smtpServerPort" placeholder="Usually: 25, 465, 587, or 2525">
+            </div>
+            <div class="wrapper_input">
+              <label for="input_imapServerName">IMAP-server name</label>
+              <input type="text" name="smtp" id="input_imapServerName" placeholder="imap.example.com">
+            </div>
+            <div class="wrapper_input">
+              <label for="input_imapServerPort">IMAP-server port</label>
+              <input type="text" name="smtp" id="input_imapServerPort" placeholder="Default port is 993">
+            </div>
+          </div>
+          <div id="button_wrapper">
+            <button id="next_button">Done!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./scripts/authorize.js"></script>
+  </body>
+</html>
